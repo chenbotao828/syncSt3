@@ -1,0 +1,48 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Browser Refresh",
+		"Browser Sync",
+		"Cndict",
+		"Color Highlighter",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"CSS3",
+		"Emmet",
+		"HTML5",
+		"HTMLAttributes",
+		"IMESupport",
+		"Inno Setup",
+		"JsFormat",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Markdown to Clipboard",
+		"Package Control",
+		"PackageSync",
+		"Pandoc",
+		"PlainTasks",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeREPL",
+		"SyncedSideBar",
+		"SyncedSidebarBg",
+		"Terminal",
+		"Theme - Aprosopo",
+		"Theme - Fengshui",
+		"Theme - Soda",
+		"View In Browser"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/Theme - Aprosopo/Tomorrow-Night-Eighties-Stormy.tmTheme",
+	"default_encoding": "UTF-8",
+	"draw_centered": true,
+	"font_face": "Yahei Consolas Hybrid",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Browser Sync",
+		"HTML5",
+		"Makefile",
+		"Vintage"
+	],
+	"reveal-on-activate": true,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true,
+	"wrap_width": 80
+}

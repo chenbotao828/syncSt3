@@ -1,0 +1,138 @@
+[    // Toggle high visibility mode
+    {
+        "keys": ["ctrl+alt+v"],
+        "command": "bh_toggle_high_visibility"
+    },
+
+        // Select the attribute to the left of the cursor (will wrap inside the tag)
+    {
+        "keys": ["ctrl+alt+d"],
+        "command": "bh_key",
+        "args":
+        {
+            "plugin":
+            {
+                "type": ["cfml", "html", "angle"],
+                "command": "bh_modules.tagattrselect",
+                "args": {"direction": "left"}
+            }
+        }
+    },
+
+        // Select text including brackets
+    {
+        "keys": ["ctrl+alt+a"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"always_include_brackets": true}
+            }
+        }
+    },
+    // Browser Refresh
+    {   
+      "keys": ["alt+r"], "command": "browser_refresh", "args": {
+        "auto_save": true,
+        // "delay": 0.0,
+        "activate": true,
+        "browsers" : ["ie","chrome"]
+      }
+    },
+    {
+        "keys": [
+            "alt+z"
+        ], 
+        "args": {
+            "action": "increment_number_by_01"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_01"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "alt+x"
+        ], 
+        "args": {
+            "action": "decrement_number_by_01"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_01"
+            }
+        ]
+    },
+
+    {
+        "keys": [
+            "alt+a"
+        ], 
+        "args": {
+            "action": "increment_number_by_1"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_1"
+            }
+        ]
+    }, 
+    {
+        "keys": [
+            "alt+s"
+        ], 
+        "args": {
+            "action": "decrement_number_by_1"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_1"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "alt+q"
+        ], 
+        "args": {
+            "action": "increment_number_by_10"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_10"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "alt+w"
+        ], 
+        "args": {
+            "action": "decrement_number_by_10"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_10"
+            }
+        ]
+    },
+// 金山词霸
+    { "keys": [ "ctrl+alt+j" ], 
+          "command": "cndict",
+          "args": {"dict": "Jinshan"}
+    }
+    
+    ]
