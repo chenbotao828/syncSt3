@@ -3,7 +3,7 @@
 	"default_encoding": "UTF-8",
 	"draw_centered": true,
 	"font_face": "Yahei Consolas Hybrid",
-	"font_size": 12,
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"Browser Sync",
