@@ -35,6 +35,21 @@
             }
         }
     },
+     // Select text between brackets
+    {
+        "no_outside_adj": null,
+        "keys": ["ctrl+shift+a"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect"
+            }
+        }
+    },
     // Browser Refresh
     {   
       "keys": ["alt+r"], "command": "browser_refresh", "args": {
@@ -133,6 +148,19 @@
     { "keys": [ "ctrl+alt+j" ], 
           "command": "cndict",
           "args": {"dict": "Jinshan"}
-    }
-    
+    },
+//Plain Tasks
+    { "keys": ["alt+a"], "command": "plain_tasks_archive","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+
+// Find panel key bindings
+    { "keys": ["alt+`"], "command": "find_all", "args": {"close_panel": true},
+         "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+    },
+
+// goto last edit 
+    {
+        "keys": ["alt+d"], "command": "last_edit_line"  
+    },
+
+
     ]
