@@ -162,5 +162,8 @@
         "keys": ["alt+d"], "command": "last_edit_line"  
     },
 
+        { "keys": ["alt+shift+t"], "command": "open_terminal" },
+
+
 
     ]
