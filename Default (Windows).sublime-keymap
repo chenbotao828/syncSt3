@@ -164,6 +164,6 @@
 
         { "keys": ["alt+shift+t"], "command": "open_terminal" },
 
-
+    { "keys": ["alt+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
     ]
