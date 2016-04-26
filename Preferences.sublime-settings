@@ -1,9 +1,20 @@
 {
+	"aprosopo_active_bar": true,
+	"aprosopo_active_text": true,
+	"aprosopo_combined_dirty_active_bar": true,
+	"aprosopo_dark_aqua": true,
+	"aprosopo_dark_dirty_green": true,
+	"aprosopo_dirty_bar": true,
+	"aprosopo_dirty_button": true,
+	"aprosopo_show_tab_close_buttons": true,
+	"aprosopo_sidebar_font_xsmall": true,
+	"aprosopo_sidebar_tree_xsmall": true,
+	"aprosopo_statusbar_font_small": true,
 	"color_scheme": "Packages/Theme - Aprosopo/Tomorrow-Night-Eighties-Stormy.tmTheme",
 	"default_encoding": "UTF-8",
 	"draw_centered": true,
 	"font_face": "YaHei Consolas Hybrid",
-	"font_size": 11,
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Block Cursor Everywhere",
@@ -24,10 +35,12 @@
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
-		"Theme - Soda",
+		"SyncedSideBar",
+		"SyncedSidebarBg",
 		"Vintage"
 	],
 	"reveal-on-activate": true,
+	"theme": "Aprosopo Dark@st3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true,
 	"wrap_width": 80
