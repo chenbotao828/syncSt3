@@ -9,11 +9,13 @@
 	"aprosopo_sidebar_font_medium": true,
 	"aprosopo_sidebar_tree_small": true,
 	"aprosopo_statusbar_font_small": true,
+	"caret_style": "phase",
 	"color_scheme": "Packages/Theme - Aprosopo/Tomorrow-Night-Eighties-Stormy.tmTheme",
 	"default_encoding": "UTF-8",
 	"draw_centered": true,
 	"font_face": "YaHei Consolas Hybrid",
-	"font_size": 10,
+	"font_size": 14,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Block Cursor Everywhere",

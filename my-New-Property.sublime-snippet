@@ -3,9 +3,7 @@
     @property
     def ${1:foo}(self):
         ${2/.+/'''/}${2:docstring for $1}${2/.+/'''\n/}
-    ${2/.+/\t/}${3:pass}
-
-myProTest(${4:Class}($5).$1, ${0:goal})]]></content>
+    ${2/.+/\t/}${3:pass}]]></content>
     <tabTrigger>pp</tabTrigger>
     <scope>source.python</scope>
     <description>my New Property</description>
