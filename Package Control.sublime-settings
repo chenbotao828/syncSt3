@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"IMESupport"
 	],
 	"installed_packages":
 	[
@@ -32,6 +33,7 @@
 		"Inno Setup",
 		"JavaScript Completions",
 		"JavaScript Console",
+		"Jinja2",
 		"JsFormat",
 		"Markdown Extended",
 		"Markdown Preview",
@@ -58,6 +60,7 @@
 		"SyncedSideBar",
 		"SyncedSidebarBg",
 		"Terminal",
+		"Terminality",
 		"Theme - Aprosopo",
 		"Theme - Soda",
 		"View In Browser",

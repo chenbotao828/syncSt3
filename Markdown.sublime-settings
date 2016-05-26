@@ -1,7 +1,8 @@
 {
 	"extensions":
 	[
-		"mdown"
+		"mdown",
+		"md"
 	],
 	"highlight_line": false,
 	"line_numbers": true

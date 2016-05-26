@@ -1,0 +1,9 @@
+{    // The encoding to handle input/output of the invoked process
+    //    Using the same format as str.encode() in Python 3 used
+    "encoding": "UTF-8",
+
+    // Error handler on output encoding
+    //    ignore = Remove all invalid encoding character
+    //    replace = Replace all invalid encoding character with "?" symbol
+    // Change this value without knowing what you're doing is not a good idea
+    "encoding_handle": "replace"}
