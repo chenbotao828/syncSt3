@@ -9,35 +9,38 @@
 	"color_scheme": "Packages/Theme - Aprosopo/Tomorrow-Night-Eighties-Stormy.tmTheme",
 	"default_encoding": "UTF-8",
 	"draw_centered": true,
+	"env":
+	{
+		"PATH": "E:\\code\\elixir\\bin"
+	},
 	"font_face": "YaHei Consolas Hybrid",
 	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Block Cursor Everywhere",
 		"Browser Sync",
 		"CodeFormatter",
 		"Color Highlighter",
 		"CSS3",
 		"HTML5",
 		"HTMLAttributes",
-		"IMESupport",
 		"Inno Setup",
 		"JavaScript Console",
 		"Makefile",
 		"Markdown",
-		"SublimeLinter",
+		"SublimeLinter-contrib-elixirc",
 		"SublimeLinter-csslint",
-		"SublimeLinter-flake8",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SyncedSideBar",
 		"SyncedSidebarBg",
-		"Vintage"
+		"Terminal"
 	],
+	"mdpopups.default_formatting": false,
+	"mdpopups.user_css": "Packages/cndict/mdpopups.css",
 	"reveal-on-activate": true,
-	"theme": "Aprosopo Dark@st3.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true,
 	"wrap_width": 80

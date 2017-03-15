@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"IMESupport"
 	],
 	"installed_packages":
 	[
@@ -14,7 +13,7 @@
 		"BracketHighlighter",
 		"Browser Refresh",
 		"Browser Sync",
-		"Cndict",
+		"Chinese-English Bilingual Dictionary",
 		"CodeFormatter",
 		"Color Highlighter",
 		"ColorPicker",
@@ -22,6 +21,8 @@
 		"CSS3",
 		"DocBlockr",
 		"EJS",
+		"Elixir",
+		"ElixirSublime",
 		"Emmet",
 		"GotoDocumentation",
 		"GoToLastEdit",
@@ -51,6 +52,7 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-elixirc",
 		"SublimeLinter-csslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-html-tidy",

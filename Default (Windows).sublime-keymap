@@ -145,9 +145,14 @@
         ]
     },
 // 金山词霸
-    { "keys": [ "ctrl+alt+j" ], 
+    { "keys": [ "alt+shift+j" ], 
           "command": "cndict",
           "args": {"dict": "Jinshan"}
+    },
+// 有道词典
+    { "keys": [ "alt+shift+y" ], 
+          "command": "cndict",
+          "args": {"dict": "Youdao"}
     },
 //Plain Tasks
     { "keys": ["alt+a"], "command": "plain_tasks_archive","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
@@ -165,5 +170,5 @@
         { "keys": ["alt+shift+t"], "command": "open_terminal" },
 
     { "keys": ["alt+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
-
+    { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
     ]
